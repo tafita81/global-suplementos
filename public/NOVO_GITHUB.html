@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploy para Novo Repositório GitHub</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #1a202c;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .badge {
+            display: block;
+            text-align: center;
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0 auto 40px;
+            width: fit-content;
+        }
+        .step {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .step h2 {
+            color: #2d3748;
+            font-size: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .code {
+            background: #2d3748;
+            color: #68d391;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            overflow-x: auto;
+            margin: 15px 0;
+            white-space: pre;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 10px 5px;
+        }
+        .btn:hover {
+            background: #5568d3;
+        }
+        .btn-github {
+            background: #24292e;
+        }
+        .btn-github:hover {
+            background: #1b1f23;
+        }
+        .alert {
+            background: #fef5e7;
+            border: 2px solid #f39c12;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .alert strong {
+            color: #d68910;
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Deploy para Novo Repositório</h1>
+        <span class="badge">github.com/tafita81/global-supplements</span>
+
+        <div class="alert">
+            <strong>⚠️ IMPORTANTE:</strong>
+            Como operações git são bloqueadas por segurança, você precisa executar os comandos manualmente no Shell do Replit.
+        </div>
+
+        <div class="step">
+            <h2>
+                <span class="step-number">1</span>
+                Criar Repositório no GitHub
+            </h2>
+            <p style="color: #4a5568; margin-bottom: 15px;">
+                Acesse o GitHub e crie um novo repositório:
+            </p>
+            <a href="https://github.com/new" target="_blank" class="btn btn-github">
+                ➕ Criar Novo Repositório no GitHub
+            </a>
+            <ul style="margin: 20px 0 0 20px; color: #4a5568; line-height: 1.8;">
+                <li><strong>Nome:</strong> global-supplements</li>
+                <li><strong>Descrição:</strong> Global Supplements B2B Platform</li>
+                <li><strong>Visibilidade:</strong> Público</li>
+                <li><strong>NÃO</strong> inicialize com README, .gitignore ou license</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h2>
+                <span class="step-number">2</span>
+                Abrir Shell do Replit
+            </h2>
+            <p style="color: #4a5568;">
+                No Replit, abra o <strong>Shell</strong> (terminal) clicando no ícone de terminal ou pressionando <code>Ctrl + `</code>
+            </p>
+        </div>
+
+        <div class="step">
+            <h2>
+                <span class="step-number">3</span>
+                Copiar e Colar Comandos
+            </h2>
+            <p style="color: #4a5568; margin-bottom: 15px;">
+                Copie TODO este bloco de comandos e cole no Shell:
+            </p>
+            <div class="code">cd projeto-copia
+git remote remove origin
+git remote add origin https://github.com/tafita81/global-supplements.git
+git add .
+git commit -m "feat: Global Supplements - Sistema completo B2B/B2C
+
+✨ Features:
+- Sistema inteligente de filtros (29 subcategorias)
+- Interface estilo Amazon profissional
+- 14 marketplaces internacionais
+- i18n completo (15 idiomas)
+- Ordenação por reviews
+- Affiliate tag: globalsupleme-20
+
+🚀 Production Ready para www.globalsupplements.site"
+git branch -M main
+git push -u origin main</div>
+        </div>
+
+        <div class="step">
+            <h2>
+                <span class="step-number">4</span>
+                Verificar Deploy
+            </h2>
+            <p style="color: #4a5568; margin-bottom: 15px;">
+                Após executar os comandos, verifique o repositório:
+            </p>
+            <a href="https://github.com/tafita81/global-supplements" target="_blank" class="btn">
+                🔗 Ver Repositório no GitHub
+            </a>
+        </div>
+
+        <div style="background: #c6f6d5; border: 2px solid #48bb78; padding: 20px; border-radius: 8px; margin-top: 30px; text-align: center;">
+            <h2 style="color: #22543d; font-size: 24px; margin-bottom: 10px;">✅ Pronto!</h2>
+            <p style="color: #22543d;">
+                Seu código estará atualizado no novo repositório<br>
+                <strong>github.com/tafita81/global-supplements</strong>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+╔═══════════════════════════════════════════════════════════╗
+║  🚀 COMANDO PARA ATUALIZAR O GITHUB AGORA               ║
+╚═══════════════════════════════════════════════════════════╝
+
+Copie e cole TUDO no Shell do Replit:
+
+cd projeto-copia && git remote set-url origin https://github.com/tafita81/global-supplements.git && git add . && git commit -m "feat: Sistema completo de filtros + interface Amazon + 14 países + i18n + deploy pronto" && git push -f origin main
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Isso vai:
+1. Configurar o remote correto
+2. Adicionar todos os arquivos
+3. Criar commit
+4. Fazer push forçado para main
+
+🔗 Depois acesse: https://github.com/tafita81/global-supplements
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

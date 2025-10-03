@@ -1,0 +1,68 @@
+╔════════════════════════════════════════════════════════════════╗
+║  🚀 ENVIAR ARQUIVOS GRANDES PARA GITHUB COM GIT LFS          ║
+╚════════════════════════════════════════════════════════════════╝
+
+✅ Git LFS instalado com sucesso!
+
+Git LFS (Large File Storage) permite enviar arquivos grandes ao GitHub.
+Seus arquivos ZIP (214 MB) serão aceitos perfeitamente.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 COPIE E COLE NO SHELL (TUDO DE UMA VEZ):
+
+git lfs install && git lfs track "*.zip" && git add .gitattributes && git add . && git commit -m "feat: Adicionar suporte Git LFS para arquivos grandes" && git push -f origin main
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ O que esse comando faz (passo a passo):
+
+1. git lfs install
+   → Inicializa Git LFS no repositório
+
+2. git lfs track "*.zip"
+   → Configura para rastrear todos os arquivos ZIP via LFS
+
+3. git add .gitattributes
+   → Adiciona arquivo de configuração do LFS
+
+4. git add .
+   → Adiciona todos os arquivos (ZIPs vão via LFS)
+
+5. git commit -m "..."
+   → Cria commit com as mudanças
+
+6. git push -f origin main
+   → Envia para GitHub (ZIPs grandes serão aceitos!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 SEUS ARQUIVOS QUE SERÃO ENVIADOS:
+
+✅ Código fonte completo (src/)
+✅ Sistema de filtros (29 subcategorias)
+✅ 14 marketplaces + i18n (15 idiomas)
+✅ Interface Amazon profissional
+✅ global-supplements-site.zip (70 MB) ← VIA LFS
+✅ global-supplements-complete.zip (37 MB) ← VIA LFS
+✅ Arquivos dist/ (compilados)
+✅ Todas as configurações
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 COMO FUNCIONA O GIT LFS:
+
+- Arquivos pequenos → GitHub normal
+- Arquivos grandes → GitHub LFS (até 2 GB por arquivo!)
+- Totalmente transparente para você
+- Downloads continuam funcionando normalmente
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⏱️ Tempo estimado: 1-2 minutos (são 214 MB)
+
+🔗 Resultado: https://github.com/tafita81/global-supplements
+
+╔════════════════════════════════════════════════════════════════╗
+║  COLE O COMANDO ACIMA NO SHELL E APERTE ENTER!               ║
+╚════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,42 @@
+╔═══════════════════════════════════════════════════════════════╗
+║  🔧 COMANDO PARA CORRIGIR E ENVIAR AO GITHUB                ║
+╚═══════════════════════════════════════════════════════════════╝
+
+PROBLEMA: Arquivos ZIP grandes (214 MB) impedindo o push
+
+SOLUÇÃO: Remover do git e enviar novamente
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 COPIE E COLE NO SHELL (uma linha só):
+
+git rm -r --cached dist public/*.zip 2>/dev/null; git add . && git commit -m "fix: Remover arquivos grandes e otimizar para GitHub" && git push -f origin main
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ O que esse comando faz:
+
+1. Remove ZIPs e pasta dist do cache do git
+2. Adiciona todos os arquivos restantes
+3. Cria novo commit otimizado
+4. Envia para o GitHub
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 O que SERÁ enviado:
+✅ Código fonte (src/)
+✅ Componentes React
+✅ Configurações do projeto
+✅ package.json
+✅ README
+
+❌ O que NÃO será enviado:
+❌ Arquivos ZIP (70MB + 37MB)
+❌ Pasta dist (compilados)
+❌ node_modules
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⏱️ Tempo estimado: 20-40 segundos
+
+╔═══════════════════════════════════════════════════════════════╗

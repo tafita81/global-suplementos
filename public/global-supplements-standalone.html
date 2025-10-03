@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Supplements - Premium Worldwide Network</title>
+    <meta name="description" content="World leader in dietary supplements connecting governments, businesses and consumers to premium suppliers through advanced AI technology.">
+    <meta name="keywords" content="supplements, global suppliers, B2B trading, government contracts, FDA approved, premium supplements">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://globalsupplements.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://globalsupplements.com">
+    <meta property="og:title" content="Global Supplements - Premium Worldwide Network">
+    <meta property="og:description" content="Trusted by Fortune 500 companies and government agencies across 50+ countries.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://globalsupplements.com">
+    <meta property="twitter:title" content="Global Supplements - Premium Worldwide Network">
+    <meta property="twitter:description" content="Trusted by Fortune 500 companies and government agencies across 50+ countries.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTYiIGZpbGw9IiMwMDdCRkYiLz4KPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4PSI4IiB5PSI4Ij4KPHBhdGggZD0iTTggMkwxMCA2SDE0TDExIDlMMTIgMTNMOCAxMUw0IDEzTDUgOUwyIDZINkw4IDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4KPC9zdmc+">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            DEFAULT: '#007BFF',
+                            50: '#E6F3FF',
+                            100: '#CCE7FF',
+                            500: '#007BFF',
+                            600: '#0056B3',
+                            900: '#003875'
+                        },
+                        secondary: {
+                            DEFAULT: '#6C757D',
+                            500: '#6C757D'
+                        },
+                        accent: {
+                            DEFAULT: '#28A745',
+                            500: '#28A745'
+                        },
+                        success: {
+                            DEFAULT: '#28A745',
+                            500: '#28A745'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <style>
+        /* Custom animations */
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(0, 123, 255, 0.3); }
+            50% { box-shadow: 0 0 30px rgba(0, 123, 255, 0.6); }
+        }
+        
+        .animate-pulse-glow {
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #007BFF, #28A745, #FFC107);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-bg {
+            background: linear-gradient(135deg, #001122 0%, #003366 50%, #006699 100%);
+        }
+        
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Loading animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #007BFF;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Responsive video */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50" id="navigation">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center mr-3">
+                            <i data-lucide="globe" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold gradient-text">Global Supplements</span>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">About</a>
+                        <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Services</a>
+                        <a href="#testimonials" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Testimonials</a>
+                        <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- Language Selector -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <select id="languageSelector" class="bg-transparent border border-gray-300 rounded-md px-3 py-1 text-sm">
+                        <option value="en">🇺🇸 English</option>
+                        <option value="pt">🇧🇷 Português</option>
+                        <option value="es">🇪🇸 Español</option>
+                        <option value="fr">🇫🇷 Français</option>
+                        <option value="de">🇩🇪 Deutsch</option>
+                        <option value="it">🇮🇹 Italiano</option>
+                        <option value="ja">🇯🇵 日本語</option>
+                        <option value="ko">🇰🇷 한국어</option>
+                        <option value="zh">🇨🇳 中文</option>
+                        <option value="ar">🇸🇦 العربية</option>
+                    </select>
+                    <button onclick="scrollToContact()" class="bg-gradient-to-r from-blue-500 to-green-500 text-white px-4 py-2 rounded-full hover:shadow-lg transition-all duration-300">
+                        <span data-translate="navigation.partnerWithUs">Partner With Us</span>
+                    </button>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobileMenuButton" class="text-gray-700 hover:text-blue-600 focus:outline-none">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="md:hidden hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">About</a>
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">Services</a>
+                <a href="#testimonials" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">Testimonials</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Main Content -->
+                <div class="text-white">
+                    <!-- Trust Badges -->
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <div class="bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold flex items-center">
+                            <i data-lucide="star" class="w-3 h-3 mr-1"></i>
+                            A+ BBB Rated
+                        </div>
+                        <div class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold flex items-center">
+                            <i data-lucide="shield" class="w-3 h-3 mr-1"></i>
+                            FDA Registered
+                        </div>
+                        <div class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold flex items-center">
+                            <i data-lucide="award" class="w-3 h-3 mr-1"></i>
+                            ISO 9001 Certified
+                        </div>
+                    </div>
+                    
+                    <!-- Headline -->
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                        <span class="bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent" data-translate="hero.title.main">
+                            #1 Global
+                        </span>
+                        <br>
+                        <span class="text-white" data-translate="hero.title.sub">
+                            Supplements Network
+                        </span>
+                    </h1>
+                    
+                    <!-- Subheadline -->
+                    <p class="text-xl md:text-2xl text-blue-200 mb-6 font-medium" data-translate="hero.subtitle">
+                        Connecting Premium Suppliers Worldwide Through Advanced AI Technology
+                    </p>
+                    
+                    <!-- Description -->
+                    <p class="text-lg text-gray-300 mb-8 max-w-2xl" data-translate="hero.description">
+                        Trusted by Fortune 500 companies and government agencies across 50+ countries. Our Miami-based global network delivers premium supplement solutions with guaranteed quality, compliance, and reliability.
+                    </p>
+                    
+                    <!-- Key Benefits -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="text-lg" data-translate="hero.benefits.profitMargins">200-500% Profit Margins</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="shield" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="text-lg" data-translate="hero.benefits.compliance">100% Compliance Guaranteed</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="globe" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="text-lg" data-translate="hero.benefits.coverage">50+ Countries Coverage</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="zap" class="w-5 h-5 text-white"></i>
+                            </div>
+                            <span class="text-lg" data-translate="hero.benefits.support">24/7 AI-Powered Support</span>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="scrollToContact()" class="bg-gradient-to-r from-green-500 to-blue-500 text-white text-lg px-8 py-4 rounded-full hover:shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+                            <i data-lucide="trending-up" class="w-5 h-5 mr-2"></i>
+                            <span data-translate="hero.startPartnership">Start Partnership</span>
+                            <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+                        </button>
+                        <button onclick="scrollToServices()" class="border-2 border-white text-white hover:bg-white hover:text-blue-900 text-lg px-8 py-4 rounded-full transition-all duration-300 flex items-center justify-center">
+                            <i data-lucide="building-2" class="w-5 h-5 mr-2"></i>
+                            <span data-translate="hero.viewSolutions">View Solutions</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Stats Panel -->
+                <div class="lg:pl-12">
+                    <!-- Live Stats -->
+                    <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 mb-6">
+                        <div class="text-center mb-6">
+                            <div class="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold inline-flex items-center mb-3">
+                                <i data-lucide="zap" class="w-3 h-3 mr-1"></i>
+                                <span data-translate="hero.liveData">LIVE DATA</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-2" data-translate="hero.realTimeStatus">Real-Time Network Status</h3>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-green-400 mb-1" id="activeSuppliers">10,847</div>
+                                <div class="text-sm text-gray-300" data-translate="hero.activeSuppliers">Active Suppliers</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-blue-400 mb-1">52</div>
+                                <div class="text-sm text-gray-300" data-translate="hero.countries">Countries</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-purple-400 mb-1">99.7%</div>
+                                <div class="text-sm text-gray-300" data-translate="hero.uptime">Uptime</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-orange-400 mb-1">$2.8B</div>
+                                <div class="text-sm text-gray-300" data-translate="hero.volume2024">Volume 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Recent Success -->
+                    <div class="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="trending-up" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-white mb-2" data-translate="hero.latestSuccess">Latest Partnership Success</h4>
+                                <p class="text-gray-300 text-sm mb-2" data-translate="hero.successDescription">
+                                    Fortune 100 pharmaceutical company secured $50M annual contract through our network.
+                                </p>
+                                <div class="bg-blue-600 text-white px-2 py-1 rounded text-xs" data-translate="hero.hoursAgo">2 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Country Flags Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-50 to-green-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Active in 52+ Countries</h2>
+                <p class="text-xl text-gray-600">Connecting premium suppliers across all major markets worldwide</p>
+            </div>
+            
+            <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-10 gap-6 items-center justify-center">
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇺🇸</span>
+                    <span class="text-xs text-gray-600">USA</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇧🇷</span>
+                    <span class="text-xs text-gray-600">Brazil</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇨🇳</span>
+                    <span class="text-xs text-gray-600">China</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇩🇪</span>
+                    <span class="text-xs text-gray-600">Germany</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇬🇧</span>
+                    <span class="text-xs text-gray-600">UK</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇯🇵</span>
+                    <span class="text-xs text-gray-600">Japan</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇨🇦</span>
+                    <span class="text-xs text-gray-600">Canada</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇫🇷</span>
+                    <span class="text-xs text-gray-600">France</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇦🇺</span>
+                    <span class="text-xs text-gray-600">Australia</span>
+                </div>
+                <div class="flex flex-col items-center p-4 hover:scale-110 transition-transform">
+                    <span class="text-4xl mb-2">🇸🇬</span>
+                    <span class="text-xs text-gray-600">Singapore</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Products Carousel -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-text">Premium Product Categories</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Access to over 10,000+ premium supplement products across all major categories with guaranteed quality and compliance
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Omega-3 -->
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <div class="text-6xl mb-4">🐟</div>
+                    <h3 class="text-xl font-bold mb-2">Omega-3 Premium</h3>
+                    <p class="text-gray-600 mb-4">High-purity fish oil with EPA and DHA</p>
+                    <div class="text-2xl font-bold text-blue-600 mb-2">$29.99</div>
+                    <div class="text-sm text-gray-500">67% Margin</div>
+                </div>
+                
+                <!-- Whey Protein -->
+                <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <div class="text-6xl mb-4">💪</div>
+                    <h3 class="text-xl font-bold mb-2">Whey Protein Isolate</h3>
+                    <p class="text-gray-600 mb-4">25g protein per serving, fast absorption</p>
+                    <div class="text-2xl font-bold text-green-600 mb-2">$49.99</div>
+                    <div class="text-sm text-gray-500">72% Margin</div>
+                </div>
+                
+                <!-- Vitamin D3 -->
+                <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <div class="text-6xl mb-4">☀️</div>
+                    <h3 class="text-xl font-bold mb-2">Vitamin D3 5000IU</h3>
+                    <p class="text-gray-600 mb-4">High-potency immune support</p>
+                    <div class="text-2xl font-bold text-yellow-600 mb-2">$19.99</div>
+                    <div class="text-sm text-gray-500">54% Margin</div>
+                </div>
+                
+                <!-- Creatine -->
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <div class="text-6xl mb-4">⚡</div>
+                    <h3 class="text-xl font-bold mb-2">Creatine Monohydrate</h3>
+                    <p class="text-gray-600 mb-4">Enhanced strength and power</p>
+                    <div class="text-2xl font-bold text-purple-600 mb-2">$24.99</div>
+                    <div class="text-sm text-gray-500">78% Margin</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-text" data-translate="services.title">End-to-End Supplement Business Solutions</h2>
+                <div class="text-lg text-blue-600 font-semibold mb-4" data-translate="services.subtitle">COMPREHENSIVE SOLUTIONS</div>
+                <p class="text-xl text-gray-600 max-w-4xl mx-auto" data-translate="services.description">
+                    From sourcing to delivery, our Miami-based team provides complete business solutions backed by advanced AI technology and 15+ years of global market expertise.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- B2B Trading -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="globe" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-translate="services.b2bTrading.title">B2B Global Trading</h3>
+                    <p class="text-gray-600 mb-6" data-translate="services.b2bTrading.description">
+                        Connect with verified premium supplement manufacturers worldwide through our AI-powered network.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            10,000+ Verified Suppliers
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Real-time Pricing & Availability
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Automated Contract Management
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-green-600" data-translate="services.b2bTrading.benefit">200-500% Profit Margins</div>
+                </div>
+                
+                <!-- Government Contracts -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-blue-500 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="building" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-translate="services.governmentContracts.title">Government Contracts</h3>
+                    <p class="text-gray-600 mb-6" data-translate="services.governmentContracts.description">
+                        Access exclusive government procurement opportunities in health and supplement sectors globally.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            SAM.gov Integration
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Compliance Automation
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Bid Preparation Support
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-green-600" data-translate="services.governmentContracts.benefit">$100K - $2M per Contract</div>
+                </div>
+                
+                <!-- Private Label -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="package" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-translate="services.privateLabel.title">Private Label Solutions</h3>
+                    <p class="text-gray-600 mb-6" data-translate="services.privateLabel.description">
+                        Custom supplement manufacturing and branding services with full regulatory compliance.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Custom Formulations
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            FDA/CE Compliance
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Brand Development
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-green-600" data-translate="services.privateLabel.benefit">Complete Turnkey Solution</div>
+                </div>
+                
+                <!-- Global Logistics -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="truck" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-translate="services.globalLogistics.title">Global Logistics</h3>
+                    <p class="text-gray-600 mb-6" data-translate="services.globalLogistics.description">
+                        End-to-end supply chain management with AI-optimized routing and real-time tracking.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Worldwide Shipping
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Customs Clearance
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Real-time Tracking
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-green-600" data-translate="services.globalLogistics.benefit">40% Cost Reduction</div>
+                </div>
+                
+                <!-- Compliance -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="shield-check" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-translate="services.compliance.title">Regulatory Compliance</h3>
+                    <p class="text-gray-600 mb-6" data-translate="services.compliance.description">
+                        Complete compliance management for all international markets and regulatory bodies.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            FDA Registration
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            CE Marking
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            GMP Certification
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-green-600" data-translate="services.compliance.benefit">100% Compliance Rate</div>
+                </div>
+                
+                <!-- Market Intelligence -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-teal-500 to-green-500 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="bar-chart-3" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" data-translate="services.marketIntelligence.title">Market Intelligence</h3>
+                    <p class="text-gray-600 mb-6" data-translate="services.marketIntelligence.description">
+                        AI-powered market analysis and opportunity identification for maximum profitability.
+                    </p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Real-time Market Data
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Competitor Analysis
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                            Price Optimization
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-green-600" data-translate="services.marketIntelligence.benefit">94.7% Accuracy Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <div class="text-lg text-purple-600 font-semibold mb-4">💎 Premium Clients</div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 gradient-text" data-translate="testimonials.title">Trusted by Global Industry Leaders</h2>
+                <p class="text-xl text-gray-600 max-w-4xl mx-auto" data-translate="testimonials.description">
+                    From Fortune 500 companies to government agencies, see how our Miami-based global network delivers exceptional results across 52 countries.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Testimonial 1 -->
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">SM</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Sarah Mitchell</h4>
+                            <p class="text-sm text-gray-600">Chief Procurement Officer</p>
+                            <p class="text-sm text-gray-500">HealthTech Solutions 🇺🇸</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        "Global Supplements has transformed our procurement process. Their AI-powered system identified suppliers we never knew existed, resulting in 45% cost savings and premium quality products."
+                    </p>
+                    <div class="text-green-600 font-bold">$2.3M saved annually</div>
+                    <div class="text-sm text-green-600 mt-1">✅ Verified Client</div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">MT</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Dr. Marcus Thompson</h4>
+                            <p class="text-sm text-gray-600">Director of Government Contracts</p>
+                            <p class="text-sm text-gray-500">Federal Health Services 🇺🇸</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        "Working with Global Supplements on government contracts has been exceptional. Their SAM.gov integration and automated compliance checks have helped us secure $50M in contracts."
+                    </p>
+                    <div class="text-green-600 font-bold">$50M contracts secured</div>
+                    <div class="text-sm text-green-600 mt-1">✅ Verified Client</div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">ER</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Elena Rodriguez</h4>
+                            <p class="text-sm text-gray-600">VP of International Trade</p>
+                            <p class="text-sm text-gray-500">MediCorp Global 🇪🇸</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        "The global network reach is incredible. From our headquarters in Madrid, we now access premium suppliers in Asia, Americas, and Europe seamlessly."
+                    </p>
+                    <div class="text-green-600 font-bold">300% market expansion</div>
+                    <div class="text-sm text-green-600 mt-1">✅ Verified Client</div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">2,400+</div>
+                    <div class="text-gray-600" data-translate="testimonials.stats.enterpriseClients">Enterprise Clients</div>
+                    <div class="text-sm text-gray-500">Fortune 500 & Government</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-green-600 mb-2">98.7%</div>
+                    <div class="text-gray-600" data-translate="testimonials.stats.clientSatisfaction">Client Satisfaction</div>
+                    <div class="text-sm text-gray-500">Based on annual surveys</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">$2.8B</div>
+                    <div class="text-gray-600" data-translate="testimonials.stats.totalVolume">Total Volume 2024</div>
+                    <div class="text-sm text-gray-500">Global transactions processed</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-orange-600 mb-2">24/7</div>
+                    <div class="text-gray-600">Premium Support</div>
+                    <div class="text-sm text-gray-500">Dedicated account managers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Industry-Leading Certifications</h2>
+                <p class="text-xl text-gray-600">Maintaining the highest standards of quality and compliance</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="shield" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">FDA Registered</h4>
+                    <p class="text-sm text-gray-600">All facilities FDA registered and inspected</p>
+                </div>
+                
+                <div class="text-center bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="award" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">GMP Certified</h4>
+                    <p class="text-sm text-gray-600">Good Manufacturing Practices compliance</p>
+                </div>
+                
+                <div class="text-center bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="star" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Third-Party Tested</h4>
+                    <p class="text-sm text-gray-600">Independent lab verification for purity</p>
+                </div>
+                
+                <div class="text-center bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="globe" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <h4 class="font-bold mb-2">Global Compliance</h4>
+                    <p class="text-sm text-gray-600">Meets regulations in 52+ countries</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6" data-translate="contact.title">Ready to Transform Your Supplement Business?</h2>
+                <div class="text-lg text-blue-200 font-semibold mb-4" data-translate="contact.subtitle">CONTACT US NOW</div>
+                <p class="text-xl text-gray-300 max-w-4xl mx-auto" data-translate="contact.description">
+                    Connect with our Miami-based team of global supplement experts. We're available 24/7 to discuss your business needs and provide immediate solutions.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+                    <h3 class="text-2xl font-bold mb-6" data-translate="contact.sendMessage">Send Us a Message</h3>
+                    <form id="contactForm" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium mb-2" data-translate="contact.form.fullName">Full Name</label>
+                                <input type="text" id="fullName" required class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-300">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-2" data-translate="contact.form.email">Email Address</label>
+                                <input type="email" id="email" required class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-300">
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium mb-2" data-translate="contact.form.company">Company Name</label>
+                                <input type="text" id="company" class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-300">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-2" data-translate="contact.form.phone">Phone Number</label>
+                                <input type="tel" id="phone" class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-300">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2" data-translate="contact.form.inquiryType">Inquiry Type</label>
+                            <select id="inquiryType" class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white">
+                                <option value="general" data-translate="contact.inquiryTypes.general">General Inquiry</option>
+                                <option value="partnership" data-translate="contact.inquiryTypes.partnership">Partnership Opportunity</option>
+                                <option value="government" data-translate="contact.inquiryTypes.government">Government Contracts</option>
+                                <option value="supplier" data-translate="contact.inquiryTypes.supplier">Become a Supplier</option>
+                                <option value="buyer" data-translate="contact.inquiryTypes.buyer">Find Suppliers</option>
+                                <option value="support" data-translate="contact.inquiryTypes.support">Technical Support</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2" data-translate="contact.form.message">Message</label>
+                            <textarea id="message" rows="4" required class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-300" data-translate-placeholder="contact.form.messagePlaceholder"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-8 rounded-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+                            <span data-translate="contact.form.sendButton">Send Message</span>
+                            <i data-lucide="send" class="w-5 h-5 ml-2"></i>
+                        </button>
+                        
+                        <div class="text-center">
+                            <p class="text-sm text-green-400" data-translate="contact.form.guaranteedResponse">Guaranteed response within 1 hour</p>
+                            <p class="text-xs text-gray-400 mt-1" data-translate="contact.form.secureInfo">Your information is secure and confidential</p>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="space-y-8">
+                    <!-- Business Line -->
+                    <div class="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="phone" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold" data-translate="contact.contactMethods.businessLine.title">24/7 Business Line</h4>
+                                <p class="text-xl font-bold text-green-400">+1 (305) 555-0123</p>
+                                <p class="text-sm text-gray-300" data-translate="contact.contactMethods.businessLine.secondary">Immediate Response Guaranteed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="mail" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold" data-translate="contact.contactMethods.businessInquiries.title">Business Inquiries</h4>
+                                <p class="text-xl font-bold text-blue-400">contact@globalsupplements.com</p>
+                                <p class="text-sm text-gray-300" data-translate="contact.contactMethods.businessInquiries.secondary">Enterprise Solutions Team</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Address -->
+                    <div class="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="map-pin" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold" data-translate="contact.contactMethods.globalHeadquarters.title">Global Headquarters</h4>
+                                <p class="text-xl font-bold text-purple-400">1200 Brickell Avenue</p>
+                                <p class="text-sm text-gray-300">Miami, FL 33131, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Hours -->
+                    <div class="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center">
+                                <i data-lucide="clock" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold" data-translate="contact.contactMethods.businessHours.title">Business Hours</h4>
+                                <p class="text-xl font-bold text-orange-400">24/7 Operations</p>
+                                <p class="text-sm text-gray-300" data-translate="contact.contactMethods.businessHours.secondary">All Time Zones Covered</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CTA -->
+            <div class="text-center mt-16">
+                <p class="text-xl text-gray-300 mb-6">
+                    Join Fortune 500 companies and government agencies worldwide!
+                </p>
+                <a href="mailto:contact@globalsupplements.com" class="inline-block bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-8 rounded-full hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                    <i data-lucide="globe" class="w-5 h-5 mr-2 inline"></i>
+                    <span data-translate="navigation.partnerWithUs">Partner With Us</span>
+                    <i data-lucide="arrow-right" class="w-5 h-5 ml-2 inline"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center mr-3">
+                            <i data-lucide="globe" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <span class="text-2xl font-bold gradient-text">Global Supplements</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 max-w-md">
+                        World leader in dietary supplements connecting governments, businesses and consumers to premium suppliers through advanced AI technology.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i data-lucide="twitter" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                            <i data-lucide="facebook" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#testimonials" class="text-gray-300 hover:text-white transition-colors">Testimonials</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-300">
+                            <i data-lucide="phone" class="w-4 h-4 inline mr-2"></i>
+                            +1 (305) 555-0123
+                        </li>
+                        <li class="text-gray-300">
+                            <i data-lucide="mail" class="w-4 h-4 inline mr-2"></i>
+                            contact@globalsupplements.com
+                        </li>
+                        <li class="text-gray-300">
+                            <i data-lucide="map-pin" class="w-4 h-4 inline mr-2"></i>
+                            Miami, FL 33131, USA
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">
+                    © 2024 Global Supplements. All rights reserved.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+        
+        // Multi-language support
+        const translations = {
+            en: {
+                "site.title": "Global Supplements - Premium Worldwide Network",
+                "navigation.home": "Home",
+                "navigation.about": "About Us",
+                "navigation.services": "Services",
+                "navigation.contact": "Contact",
+                "navigation.partnerWithUs": "Partner With Us",
+                "hero.title.main": "#1 Global",
+                "hero.title.sub": "Supplements Network",
+                "hero.subtitle": "Connecting Premium Suppliers Worldwide Through Advanced AI Technology",
+                "hero.description": "Trusted by Fortune 500 companies and government agencies across 50+ countries. Our Miami-based global network delivers premium supplement solutions with guaranteed quality, compliance, and reliability.",
+                "hero.startPartnership": "Start Partnership",
+                "hero.viewSolutions": "View Solutions",
+                "hero.benefits.profitMargins": "200-500% Profit Margins",
+                "hero.benefits.compliance": "100% Compliance Guaranteed",
+                "hero.benefits.coverage": "50+ Countries Coverage",
+                "hero.benefits.support": "24/7 AI-Powered Support",
+                "hero.liveData": "LIVE DATA",
+                "hero.realTimeStatus": "Real-Time Network Status",
+                "hero.activeSuppliers": "Active Suppliers",
+                "hero.countries": "Countries",
+                "hero.uptime": "Uptime",
+                "hero.volume2024": "Volume 2024",
+                "hero.latestSuccess": "Latest Partnership Success",
+                "hero.successDescription": "Fortune 100 pharmaceutical company secured $50M annual contract through our network.",
+                "hero.hoursAgo": "2 hours ago",
+                "services.title": "End-to-End Supplement Business Solutions",
+                "services.subtitle": "COMPREHENSIVE SOLUTIONS",
+                "services.description": "From sourcing to delivery, our Miami-based team provides complete business solutions backed by advanced AI technology and 15+ years of global market expertise.",
+                "services.b2bTrading.title": "B2B Global Trading",
+                "services.b2bTrading.description": "Connect with verified premium supplement manufacturers worldwide through our AI-powered network.",
+                "services.b2bTrading.benefit": "200-500% Profit Margins",
+                "services.governmentContracts.title": "Government Contracts",
+                "services.governmentContracts.description": "Access exclusive government procurement opportunities in health and supplement sectors globally.",
+                "services.governmentContracts.benefit": "$100K - $2M per Contract",
+                "services.privateLabel.title": "Private Label Solutions",
+                "services.privateLabel.description": "Custom supplement manufacturing and branding services with full regulatory compliance.",
+                "services.privateLabel.benefit": "Complete Turnkey Solution",
+                "services.globalLogistics.title": "Global Logistics",
+                "services.globalLogistics.description": "End-to-end supply chain management with AI-optimized routing and real-time tracking.",
+                "services.globalLogistics.benefit": "40% Cost Reduction",
+                "services.compliance.title": "Regulatory Compliance",
+                "services.compliance.description": "Complete compliance management for all international markets and regulatory bodies.",
+                "services.compliance.benefit": "100% Compliance Rate",
+                "services.marketIntelligence.title": "Market Intelligence",
+                "services.marketIntelligence.description": "AI-powered market analysis and opportunity identification for maximum profitability.",
+                "services.marketIntelligence.benefit": "94.7% Accuracy Rate",
+                "testimonials.title": "Trusted by Global Industry Leaders",
+                "testimonials.description": "From Fortune 500 companies to government agencies, see how our Miami-based global network delivers exceptional results across 52 countries.",
+                "testimonials.stats.enterpriseClients": "Enterprise Clients",
+                "testimonials.stats.clientSatisfaction": "Client Satisfaction",
+                "testimonials.stats.totalVolume": "Total Volume 2024",
+                "contact.title": "Ready to Transform Your Supplement Business?",
+                "contact.subtitle": "CONTACT US NOW",
+                "contact.description": "Connect with our Miami-based team of global supplement experts. We're available 24/7 to discuss your business needs and provide immediate solutions.",
+                "contact.sendMessage": "Send Us a Message",
+                "contact.form.fullName": "Full Name",
+                "contact.form.email": "Email Address",
+                "contact.form.company": "Company Name",
+                "contact.form.phone": "Phone Number",
+                "contact.form.inquiryType": "Inquiry Type",
+                "contact.form.message": "Message",
+                "contact.form.messagePlaceholder": "Tell us about your supplement business needs, target markets, volume requirements, or any specific questions...",
+                "contact.form.sendButton": "Send Message",
+                "contact.form.guaranteedResponse": "Guaranteed response within 1 hour",
+                "contact.form.secureInfo": "Your information is secure and confidential",
+                "contact.inquiryTypes.general": "General Inquiry",
+                "contact.inquiryTypes.partnership": "Partnership Opportunity",
+                "contact.inquiryTypes.government": "Government Contracts",
+                "contact.inquiryTypes.supplier": "Become a Supplier",
+                "contact.inquiryTypes.buyer": "Find Suppliers",
+                "contact.inquiryTypes.support": "Technical Support",
+                "contact.contactMethods.businessLine.title": "24/7 Business Line",
+                "contact.contactMethods.businessLine.secondary": "Immediate Response Guaranteed",
+                "contact.contactMethods.businessInquiries.title": "Business Inquiries",
+                "contact.contactMethods.businessInquiries.secondary": "Enterprise Solutions Team",
+                "contact.contactMethods.globalHeadquarters.title": "Global Headquarters",
+                "contact.contactMethods.businessHours.title": "Business Hours",
+                "contact.contactMethods.businessHours.secondary": "All Time Zones Covered"
+            },
+            pt: {
+                "site.title": "Global Supplements - Rede Premium Mundial",
+                "navigation.home": "Início",
+                "navigation.about": "Sobre Nós",
+                "navigation.services": "Serviços",
+                "navigation.contact": "Contato",
+                "navigation.partnerWithUs": "Seja Nosso Parceiro",
+                "hero.title.main": "Rede Global #1",
+                "hero.title.sub": "de Suplementos",
+                "hero.subtitle": "Conectando Fornecedores Premium Mundialmente Através de Tecnologia IA Avançada",
+                "hero.description": "Confiável por empresas Fortune 500 e agências governamentais em mais de 50 países. Nossa rede global baseada em Miami entrega soluções premium de suplementos com qualidade, conformidade e confiabilidade garantidas.",
+                "hero.startPartnership": "Iniciar Parceria",
+                "hero.viewSolutions": "Ver Soluções",
+                "hero.benefits.profitMargins": "200-500% Margens de Lucro",
+                "hero.benefits.compliance": "100% Conformidade Garantida",
+                "hero.benefits.coverage": "Cobertura em 50+ Países",
+                "hero.benefits.support": "Suporte IA 24/7",
+                "hero.liveData": "DADOS AO VIVO",
+                "hero.realTimeStatus": "Status da Rede em Tempo Real",
+                "hero.activeSuppliers": "Fornecedores Ativos",
+                "hero.countries": "Países",
+                "hero.uptime": "Disponibilidade",
+                "hero.volume2024": "Volume 2024",
+                "hero.latestSuccess": "Último Sucesso de Parceria",
+                "hero.successDescription": "Empresa farmacêutica Fortune 100 garantiu contrato anual de $50M através da nossa rede.",
+                "hero.hoursAgo": "2 horas atrás",
+                "services.title": "Soluções Completas para Negócios de Suplementos",
+                "services.subtitle": "SOLUÇÕES ABRANGENTES",
+                "services.description": "Do fornecimento à entrega, nossa equipe baseada em Miami fornece soluções empresariais completas apoiadas por tecnologia IA avançada e mais de 15 anos de experiência no mercado global.",
+                "testimonials.title": "Confiável por Líderes da Indústria Mundial",
+                "testimonials.description": "Nossa rede global baseada em Miami processou bilhões em transações, conectando fornecedores premium com empresas Fortune 500 e agências governamentais.",
+                "contact.title": "Pronto para Transformar Seu Negócio de Suplementos?",
+                "contact.subtitle": "ENTRE EM CONTATO AGORA",
+                "contact.description": "Conecte-se com nossa equipe baseada em Miami de especialistas globais em suplementos. Estamos disponíveis 24/7 para discutir suas necessidades de negócios e fornecer soluções imediatas."
+            },
+            es: {
+                "site.title": "Global Supplements - Red Premium Mundial",
+                "navigation.home": "Inicio",
+                "navigation.about": "Acerca de",
+                "navigation.services": "Servicios",
+                "navigation.contact": "Contacto",
+                "navigation.partnerWithUs": "Asociarse con Nosotros",
+                "hero.title.main": "Red Global #1",
+                "hero.title.sub": "de Suplementos",
+                "hero.subtitle": "Conectando Proveedores Premium Mundialmente a Través de Tecnología IA Avanzada",
+                "hero.description": "Confiado por empresas Fortune 500 y agencias gubernamentales en más de 50 países. Nuestra red global basada en Miami entrega soluciones premium de suplementos con calidad, cumplimiento y confiabilidad garantizadas.",
+                "hero.startPartnership": "Iniciar Asociación",
+                "hero.viewSolutions": "Ver Soluciones"
+            },
+            fr: {
+                "site.title": "Global Supplements - Réseau Premium Mondial",
+                "navigation.home": "Accueil",
+                "navigation.about": "À Propos",
+                "navigation.services": "Services",
+                "navigation.contact": "Contact",
+                "navigation.partnerWithUs": "Partenaire avec Nous",
+                "hero.title.main": "Réseau Global #1",
+                "hero.title.sub": "de Suppléments",
+                "hero.subtitle": "Connectant les Fournisseurs Premium Mondialement Grâce à la Technologie IA Avancée",
+                "hero.description": "Fait confiance par les entreprises Fortune 500 et les agences gouvernementales dans plus de 50 pays. Notre réseau mondial basé à Miami livre des solutions premium de suppléments avec qualité, conformité et fiabilité garanties."
+            }
+        };
+        
+        // Language detection and switching
+        let currentLanguage = localStorage.getItem('language') || detectBrowserLanguage() || 'en';
+        
+        function detectBrowserLanguage() {
+            const lang = navigator.language || navigator.userLanguage;
+            const shortLang = lang.split('-')[0];
+            return translations[shortLang] ? shortLang : 'en';
+        }
+        
+        function setLanguage(lang) {
+            currentLanguage = lang;
+            localStorage.setItem('language', lang);
+            updateContent();
+            document.getElementById('languageSelector').value = lang;
+        }
+        
+        function updateContent() {
+            const langData = translations[currentLanguage] || translations.en;
+            
+            // Update all elements with data-translate attribute
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (langData[key]) {
+                    element.textContent = langData[key];
+                }
+            });
+            
+            // Update placeholders
+            document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+                const key = element.getAttribute('data-translate-placeholder');
+                if (langData[key]) {
+                    element.placeholder = langData[key];
+                }
+            });
+            
+            // Update document title
+            if (langData['site.title']) {
+                document.title = langData['site.title'];
+            }
+        }
+        
+        // Initialize language
+        setLanguage(currentLanguage);
+        
+        // Language selector change event
+        document.getElementById('languageSelector').addEventListener('change', function() {
+            setLanguage(this.value);
+        });
+        
+        // Mobile menu toggle
+        document.getElementById('mobileMenuButton').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Smooth scroll functions
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function scrollToServices() {
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Live stats animation
+        function animateStats() {
+            const suppliers = document.getElementById('activeSuppliers');
+            let count = 10847;
+            
+            setInterval(() => {
+                count += Math.floor(Math.random() * 3) - 1; // Random change of -1, 0, or 1
+                if (count < 10800) count = 10800;
+                if (count > 10900) count = 10900;
+                suppliers.textContent = count.toLocaleString();
+            }, 5000);
+        }
+        
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const button = this.querySelector('button[type="submit"]');
+            const originalText = button.innerHTML;
+            
+            // Show loading state
+            button.innerHTML = '<div class="loading"></div> Sending...';
+            button.disabled = true;
+            
+            // Simulate form submission (replace with actual submission logic)
+            setTimeout(() => {
+                alert('Thank you for your message! We will contact you within 1 hour.');
+                this.reset();
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }, 2000);
+        });
+        
+        // Scroll-based navigation highlighting
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('text-blue-600', 'font-bold');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('text-blue-600', 'font-bold');
+                }
+            });
+        });
+        
+        // Initialize animations
+        animateStats();
+        
+        // Add click-to-call functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            phoneLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    // Analytics tracking could go here
+                    console.log('Phone number clicked:', this.href);
+                });
+            });
+        });
+        
+        // Add smooth reveal animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all sections for animation
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'all 0.6s ease-out';
+            observer.observe(section);
+        });
+        
+        // Initialize all features after DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+            updateContent();
+        });
+    </script>
+</body>
+</html>

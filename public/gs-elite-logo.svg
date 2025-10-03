@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7680 1620" fill="none">
+  <g id="globe-icon">
+    <circle cx="810" cy="648" r="486" fill="none" stroke="#FBBF24" stroke-width="50"/>
+    
+    <ellipse cx="810" cy="648" rx="142" ry="446" fill="none" stroke="#FBBF24" stroke-width="40"/>
+    
+    <ellipse cx="810" cy="648" rx="486" ry="142" fill="none" stroke="#FBBF24" stroke-width="40"/>
+    
+    <line x1="324" y1="648" x2="1296" y2="648" stroke="#FBBF24" stroke-width="40"/>
+    
+    <g transform="translate(1053, 243)">
+      <path d="M 0 162 L 81 0 L 162 162 L 81 122 Z" fill="#FBBF24" stroke="#FCD34D" stroke-width="20"/>
+      <circle cx="81" cy="41" r="30" fill="#FCD34D"/>
+    </g>
+  </g>
+  
+  <g id="text-lockup-8k">
+    <text x="1520" y="850" 
+          font-family="'Inter', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" 
+          font-size="720" 
+          font-weight="800" 
+          fill="#FFFFFF" 
+          letter-spacing="-10">
+      Global
+    </text>
+    
+    <text x="1520" y="1250" 
+          font-family="'Inter', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" 
+          font-size="540" 
+          font-weight="800" 
+          fill="#FDB022" 
+          letter-spacing="8">
+      Supplements
+    </text>
+  </g>
+</svg>

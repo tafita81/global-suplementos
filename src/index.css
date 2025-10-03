@@ -1,0 +1,300 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Barra de Rolagem Horizontal - Só aparece quando necessário */
+.scrollbar-visible::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollbar-visible::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 3px;
+}
+
+.scrollbar-visible::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+  border-radius: 3px;
+}
+
+.scrollbar-visible::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
+}
+
+/* Firefox - scrollbar só aparece quando há overflow */
+.scrollbar-visible {
+  scrollbar-width: thin;
+  scrollbar-color: #d0d0d0 #f0f0f0;
+}
+
+/* Scrollbar Fina para Subcategorias - WebKit (Chrome, Safari, Edge) */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 2px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Firefox - scrollbar thin */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #9ca3af transparent;
+}
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Clean White Background with Gold Accents */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 5%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3%;
+
+    /* Primary: Deep Black */
+    --primary: 0 0% 8%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary: Subtle Gold (only for accents) */
+    --secondary: 45 100% 51%;
+    --secondary-foreground: 0 0% 8%;
+
+    /* Muted: Very Light Gray */
+    --muted: 0 0% 98%;
+    --muted-foreground: 0 0% 45%;
+
+    /* Accent: Minimal Gold Touch */
+    --accent: 0 0% 97%;
+    --accent-foreground: 0 0% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 48 96% 89%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    --border: 0 0% 93%;
+    --input: 0 0% 96%;
+    --ring: 0 0% 8%;
+
+    --radius: 0.75rem;
+
+    /* Minimal Chart Colors */
+    --chart-1: 0 0% 8%;
+    --chart-2: 0 0% 20%;
+    --chart-3: 0 0% 40%;
+    --chart-4: 45 100% 51%;
+    --chart-5: 0 0% 60%;
+
+    /* Clean Sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 8%;
+    --sidebar-primary: 0 0% 8%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 97%;
+    --sidebar-accent-foreground: 0 0% 8%;
+    --sidebar-border: 0 0% 93%;
+    --sidebar-ring: 0 0% 8%;
+  }
+
+  .dark {
+    /* Dark Mode Clean Theme */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Dark Primary: Clean White */
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 4%;
+
+    /* Dark Secondary: Subtle Gold */
+    --secondary: 45 100% 51%;
+    --secondary-foreground: 0 0% 4%;
+
+    --muted: 0 0% 8%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 0 0% 10%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 48 96% 89%;
+
+    --success: 142 76% 40%;
+    --success-foreground: 0 0% 4%;
+
+    --border: 0 0% 12%;
+    --input: 0 0% 8%;
+    --ring: 0 0% 98%;
+
+    /* Dark Minimal Charts */
+    --chart-1: 0 0% 98%;
+    --chart-2: 0 0% 80%;
+    --chart-3: 0 0% 60%;
+    --chart-4: 45 100% 51%;
+    --chart-5: 0 0% 40%;
+
+    /* Dark Clean Sidebar */
+    --sidebar-background: 0 0% 4%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 0 0% 98%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 12%;
+    --sidebar-ring: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #e5e7eb;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Firefox scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #9ca3af #e5e7eb;
+}
+
+/* Premium Animations & Effects */
+@keyframes premium-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes gold-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes luxury-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes luxury-scale {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Clean White Design with Minimal Gold Accents */
+@layer utilities {
+  .gold-accent {
+    background: linear-gradient(135deg, hsl(45 100% 51%), hsl(45 100% 47%));
+  }
+
+  .subtle-gold {
+    color: hsl(45 100% 51%);
+  }
+
+  .clean-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .minimal-glass {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.1), transparent);
+    background-size: 200% 100%;
+    animation: gold-shimmer 3s infinite;
+  }
+
+  .clean-fade-in {
+    animation: luxury-fade-in 0.6s ease-out;
+  }
+
+  .minimal-float {
+    animation: premium-float 4s ease-in-out infinite;
+  }
+
+  /* Clean Country Flags */
+  .country-flag-clean {
+    filter: none;
+    transition: all 0.2s ease;
+  }
+
+  .country-flag-clean:hover {
+    filter: drop-shadow(0 4px 8px rgba(255, 215, 0, 0.2));
+    transform: scale(1.05);
+  }
+
+  /* Animation for automatic image rotation progress */
+  @keyframes progress {
+    0% { width: 0%; }
+    100% { width: 100%; }
+  }
+}
