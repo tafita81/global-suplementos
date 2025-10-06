@@ -21,7 +21,7 @@ jobs:
       - name: Zip dist folder
         run: zip -r global-suplementos-dist.zip dist/
       - name: Upload ZIP artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: global-suplementos-dist
           path: global-suplementos-dist.zip
